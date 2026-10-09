@@ -28,7 +28,7 @@ catch.** Nothing below 90 ships silently.
 
 | Type | What it is | Rubric |
 |---|---|---|
-| `post` | LinkedIn post ≤ 300 words | if installed, `reference/grader-rubric.md` of content-engine-skills (70) + `references/core.md` (30); without that pack, `references/rubric-article.md` |
+| `post` | LinkedIn post ≤ 300 words | optional, if installed: `reference/grader-rubric.md` of content-engine-skills (70) + `references/core.md` (30); without that pack, `references/rubric-article.md` |
 | `article` | longread, guide, blog, newsletter | `references/rubric-article.md` |
 | `deck` | any presentation, HTML or PDF | `references/rubric-deck.md` |
 | `proposal` | send-proposal, call-deck proposal, offer, retainer | `references/rubric-proposal.md` |
