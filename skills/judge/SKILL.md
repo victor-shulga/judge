@@ -66,8 +66,8 @@ products, vendors you must not name in public, an old brand) into
 leaking names. No file = only the AI-construction and link checks run, and the report says
 so. Use `--banned <path>` for a per-project list.
 
-**AI-construction detector (optional).** If present, the pre-gate calls `anticopywriting-ai/scripts/detect.py`,
-which ships in `victor-shulga/gtm-skills`. It looks in the usual skill folders
+**AI-construction detector (optional).** If present, the pre-gate runs the detector script of the
+anticopywriting-ai skill, which ships in `victor-shulga/gtm-skills`. It looks in the usual skill folders
 (`~/.claude/skills`, `./.claude/skills`, `~/.agents/skills`, `./.agents/skills`) or in
 `$JUDGE_DETECT`. Not installed → `detector: skipped`; say that in the report, the judge
 still runs. To add it: `npx skills add victor-shulga/gtm-skills/anticopywriting-ai`.
